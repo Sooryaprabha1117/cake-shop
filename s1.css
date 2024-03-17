@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(243, 144, 185);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+} 
+#rr{
+    color: #720548;
+    font-size: 45px;
+}
+.contact{
+    width: 500px;
+    background-color:rgb(250, 211, 227);
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10%;
+}
+.input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #f805a7;
+    border-radius: 10px;
+    outline: none;
+}
+.text{
+    height: 150px;
+    padding-top: 10px;
+}
+form{
+    margin: 40px;
+
+}
+.btn{
+    border-radius: 20px;
+    width: 150px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #720548;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    margin: 9px;
+
+}
+.btn:hover{
+    background-color: rgb(53, 2, 42);
+    box-shadow: 0 0 20px 0 #d806a3;
+    transition: .6s;
+}
+
